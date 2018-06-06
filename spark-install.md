@@ -11,6 +11,7 @@
 - https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 
 ### Mac 作業系統的使用者
+- 安裝 Docker For Mac
 - https://download.docker.com/mac/stable/Docker.dmg
 
 ## (二) 啟用Docker 映像檔 jupyter/pyspark-notebook
