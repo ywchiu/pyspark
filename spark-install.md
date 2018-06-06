@@ -22,3 +22,6 @@
 
 ###  執行  jupyter/pyspark-notebook
 - docker run -d -p 8888:8888 --name spark jupyter/pyspark-notebook
+
+### 檢視Notebook 連結
+- docker exec -i spark jupyter notebook list
