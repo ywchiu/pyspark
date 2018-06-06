@@ -1,6 +1,6 @@
 ## (一) 安裝 Docker
 
-### 如果學員的作業系統是使用Windows 或 Mac 系列，而非Ubuntu 或 RedHat (CentOS) 等Linux-Like 作業系統，請先於系統上安裝Docker:
+- 如果學員的作業系統是使用Windows 或 Mac 系列，而非Ubuntu 或 RedHat (CentOS) 等Linux-Like 作業系統，請先於系統上安裝Docker:
 
 ### Windows 7 & 8 作業系統的使用者:
 - 安裝 Docker-toolbox:
@@ -15,13 +15,13 @@
 
 ## (二) 啟用Docker 映像檔 jupyter/pyspark-notebook
 
-###  啟用Docker-Daemon (通常為雙擊Docker 圖樣或直接啟用該App)
+1. 啟用Docker-Daemon (通常為雙擊Docker 圖樣或直接啟用該App)
 
-### 下載jupyter/pyspark-notebook
+2. 下載jupyter/pyspark-notebook
 - docker pull jupyter/pyspark-notebook
 
-###  執行  jupyter/pyspark-notebook
+3.  執行  jupyter/pyspark-notebook
 - docker run -d -p 8888:8888 --name spark jupyter/pyspark-notebook
 
-### 檢視Notebook 連結
+4. 檢視Notebook 連結
 - docker exec -i spark jupyter notebook list
