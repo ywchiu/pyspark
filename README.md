@@ -9,5 +9,8 @@
 ### 安裝叢集使用者，請參考以下連結設定環境：
 - https://github.com/ywchiu/pyspark/blob/master/spark-cluster.md
 
+### 安裝過程影片
+- https://youtu.be/ND1oWL0zkgw
+
 ### 課程雲端環境連結：
 - http://spark.largitdata.com:8080/#/ 
