@@ -10,5 +10,4 @@
 - https://github.com/ywchiu/pyspark/blob/master/spark-cluster.md
 
 ### 課程雲端環境連結：
-- http://spark.largitdata.com:8080/#/
-- passwd: largitdata
+- http://spark.largitdata.com:8080/#/ 
